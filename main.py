@@ -1,3 +1,3 @@
 print "hello world"
-print "bye"
 print "test"
+print "bye"
