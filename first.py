@@ -1,3 +1,6 @@
+x = None
+print (x is 1)
+print (2 > 1)
 def greet():
     return "hello"
 
