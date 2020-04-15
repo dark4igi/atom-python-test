@@ -2,10 +2,15 @@
 x = ['123', ['1', 'dsa'], 123, True, 23.65]
 print (x)
 print (type(x))
+print (len(x))
 print ()
 for y in x:
     print (y)
     print (type(y))
+    try:
+        print (len(y))
+    except:
+        print ('variable without len')
     print()
 
 # list mutable
