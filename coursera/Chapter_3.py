@@ -1,13 +1,27 @@
-#read variable (x) from keyboard
-x = input()
-print (x)
+###Conditionals
+# '<' - less than
+# '<=' - less than or equal to
+# '==' - equal to
+# '>=' - greater than or equal to
+# '>' - greater than
+# '!=' not equal
 
-#read variable from keyboard from  with comment
-x = input('commnet: ',)
-print (x)
+## example
+
+# if <stayment> :
+#    command
+#elif <staytment> :
+#    command
+#elif <staytment> :
+#    command
+#else:
+#    command
 
 
-#остаток от деления "%"
-#целый результат деления "//"
+### try command if command can broke your code
+##example
 
-print (int(98.6))
+#try:
+    #command
+#except:
+    #command (if previus command fail)

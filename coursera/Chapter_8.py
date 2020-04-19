@@ -42,3 +42,20 @@ print(d)
 
 print( 99 in d)
 print ('dsa' in d)
+print ()
+
+e = 'hello world and python'
+print (e)
+print (type(e))
+f = e.split()
+print (f)
+print (type(f))
+
+for i in f:
+    print(i)
+g = 'asda-dfsf-fds'
+h = g.split('-')
+print(g)
+print(h)
+print(h[1])
+print (range(5))

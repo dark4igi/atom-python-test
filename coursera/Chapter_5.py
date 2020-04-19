@@ -1,5 +1,5 @@
 ###Loops
-## Undefine loops - 'while'
+## infinite loops - 'while'
 #example
 n = 5
 while n > 0:
@@ -18,6 +18,6 @@ for i in [5,4,3,2,1]:
 print ('Done')
 
 #
-for i in range (3, 16, 10):
+for i in range (3, 16, 2): # in range (start, finish, step)
     print (i)
 print ('Done')
